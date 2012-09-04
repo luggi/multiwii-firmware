@@ -604,6 +604,9 @@
        You have to use at least I2CGpsNav code r33 */
     //#define I2C_GPS
 
+    /* HCSR04 with i2c-gps-nav  https://github.com/luggi/i2c-gps-nav */
+    //#define I2C_NAV_SONAR
+
     /* I2C GPS device made with an indeedent ATTiny[24]313 + GPS device and
        optional sonar device.    https://github.com/wertarbyte/tiny-gps/ */
     /* get GPS data from Tiny-GPS */
